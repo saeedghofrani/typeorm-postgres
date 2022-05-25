@@ -1,0 +1,19 @@
+{
+  "type": "postgres",
+  "host": "127.0.0.1",
+  "port": 5432,
+  "username": "postgres",
+  "password": "123",
+  "database": "my_database",
+  "entities": [
+    "C:\\Users\\Hampa\\Downloads\\Compressed\\postgres-type-orm\\src\\config**/*.entity{.ts,.js}"
+  ],
+  "migrationsTableName": "migration",
+  "migrations": [
+    "C:\\Users\\Hampa\\Downloads\\Compressed\\postgres-type-orm\\src\\configsrc/migration/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/migration"
+  },
+  "ssl": false
+}
